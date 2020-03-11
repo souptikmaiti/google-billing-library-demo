@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/card_subscription">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Plan name"
+            android:id="@+id/tv_plan"
+            android:textSize="20sp"
+            android:textColor="@android:color/holo_blue_dark"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Plan Price"
+            android:id="@+id/tv_price"
+            android:textSize="16sp"
+            android:textColor="@android:color/holo_purple"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Plan Duration"
+            android:id="@+id/tv_duration"
+            android:textSize="14sp"
+            android:textColor="@android:color/holo_green_dark"
+            android:layout_below="@+id/tv_plan"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="16dp"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
